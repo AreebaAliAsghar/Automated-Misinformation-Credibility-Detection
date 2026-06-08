@@ -1,0 +1,17 @@
+ML Model: TF-IDF + Multinomial Logistic Regression
+Task: 6-Class LIAR Truthfulness Classification
+Validation Accuracy: 0.22741433021806853
+Test Accuracy: 0.24072612470402527
+
+              precision    recall  f1-score   support
+
+  pants-fire       0.14      0.28      0.19        92
+       false       0.28      0.22      0.24       249
+ barely-true       0.26      0.25      0.26       212
+   half-true       0.27      0.22      0.25       265
+ mostly-true       0.22      0.21      0.22       241
+        true       0.26      0.30      0.27       208
+
+    accuracy                           0.24      1267
+   macro avg       0.24      0.25      0.24      1267
+weighted avg       0.25      0.24      0.24      1267

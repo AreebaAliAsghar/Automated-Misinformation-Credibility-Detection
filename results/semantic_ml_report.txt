@@ -1,0 +1,17 @@
+ML Model: Sentence-BERT Embeddings + Softmax Logistic Regression
+Task: 6-Class LIAR Truthfulness Classification
+Validation Accuracy: 0.2336448598130841
+Test Accuracy: 0.23362273086029992
+
+              precision    recall  f1-score   support
+
+  pants-fire       0.15      0.42      0.22        92
+       false       0.28      0.20      0.23       249
+ barely-true       0.25      0.22      0.23       212
+   half-true       0.26      0.20      0.22       265
+ mostly-true       0.23      0.22      0.22       241
+        true       0.25      0.27      0.26       208
+
+    accuracy                           0.23      1267
+   macro avg       0.24      0.25      0.23      1267
+weighted avg       0.25      0.23      0.23      1267
